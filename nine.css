@@ -12,7 +12,9 @@ html, body {
   
   /* Colors */
   --transparent: transparent;
+
   --white: #FFFFFF;
+
   --gray-100: #F0F0F0;
   --gray-200: #DADADA;
   --gray-300: #C2C2C2;
@@ -23,7 +25,9 @@ html, body {
   --gray-700: #4D4D4D;
   --gray-800: #363636;
   --gray-900: #202020;
+
   --black: #0E0E0E;
+
   --red-100: #FFCACA;
   --red-200: #FF9090;
   --red-300: #FD7575;
@@ -34,6 +38,7 @@ html, body {
   --red-700: #AE1C1C;
   --red-800: #851111;
   --red-900: #4F0707;
+
   --orange-100: #FFDDCA;
   --orange-200: #FFC09D;
   --orange-300: #FFAC7D;
@@ -44,6 +49,7 @@ html, body {
   --orange-700: #B14E17;
   --orange-800: #8A380B;
   --orange-900: #672804;
+
   --yellow-100: #FFFACA;
   --yellow-200: #FFF6A4;
   --yellow-300: #FFF27B;
@@ -54,16 +60,18 @@ html, body {
   --yellow-700: #B0A319;
   --yellow-800: #938710;
   --yellow-900: #665E08;
-  --gren-100: #D1FFCA;
-  --gren-200: #A6FF98;
-  --gren-300: #89FF77;
-  --gren-400: #63F24E;
-  --gren-500: #4CDD36;
-  --gren: var(--green-500);
-  --gren-600: #36C220;
-  --gren-700: #2AA616;
-  --gren-800: #1D880C;
-  --gren-900: #126504;
+
+  --green-100: #D1FFCA;
+  --green-200: #A6FF98;
+  --green-300: #89FF77;
+  --green-400: #63F24E;
+  --green-500: #4CDD36;
+  --green: var(--green-500);
+  --green-600: #36C220;
+  --green-700: #2AA616;
+  --green-800: #1D880C;
+  --green-900: #126504;
+
   --blue-100: #CAE2FF;
   --blue-200: #A5CEFF;
   --blue-300: #7CB7FF;
@@ -74,6 +82,7 @@ html, body {
   --blue-700: #1F66BC;
   --blue-800: #104E98;
   --blue-900: #0A3972;
+
   --purple-100: #DBCAFF;
   --purple-200: #BE9FFF;
   --purple-300: #A57BFF;
@@ -84,6 +93,7 @@ html, body {
   --purple-700: #5624BF;
   --purple-800: #4011A3;
   --purple-900: #300A80;
+
   --pink-100: #F8CAFF;
   --pink-200: #F3A9FF;
   --pink-300: #EE88FF;
@@ -95,88 +105,90 @@ html, body {
   --pink-800: #820F95;
   --pink-900: #5D066B;
 
+
   /* Gradients */
 
+  /* Red */
   --hor-red: linear-gradient(90deg, var(-red-400) 31.77%, var(--red-500) 100%);
 
   --vert-red: linear-gradient(180deg, var(--red-400) 31.77%, var(--red-500) 100%);
 
-
+  /* Red-orange */
   --hor-ro: linear-gradient(90deg, var(--red-400) 31.77%, var(--orange-400) 100%);
 
   --vert-ro: linear-gradient(180deg, var(--red-400) 31.77%, var(--orange-400) 100%);
 
-
+  /* Red-purple */
   --hor-rp: linear-gradient(90deg, var(--red-400) 31.77%, var(--purple-300) 100%);
 
   --vert-rp: linear-gradient(180deg, var(--red-400) 31.77%, var(--purple-300) 100%);
 
-
+  /* Orange */
   --hor-orange: linear-gradient(90deg, var(--orange-400) 31.77%, var(--orange-500) 100%);
 
   --vert-orange: linear-gradient(180deg, var(--orange-400) 31.77%, var(--orange-500) 100%);
 
-
+  /* Orange-red */
   --hor-or: linear-gradient(90deg, var(--orange-400) 31.77%, var(--red-400) 100%);
 
   --vert-or: linear-gradient(180deg, var(--orange-400) 31.77%, var(--red-400) 100%);
 
-
+  /* Green */
   --hor-green: linear-gradient(90deg, var(--green-400) 31.77%, var(--green-500) 100%);
 
   --vert-green: linear-gradient(180deg, var(--green-400) 31.77%, var(--green-500) 100%);
 
-
+  /* Green-blue */
   --hor-gb: linear-gradient(90deg, var(--green-500) 31.77%, var(--blue-400) 100%);
 
   --vert-gb: linear-gradient(180deg, var(--green-500) 31.77%, var(--blue-400) 100%);
 
-
+  /* Blue */
   --hor-blue: linear-gradient(90deg, var(--blue-400) 31.77%, var(--blue-500) 100%);
 
   --vert-blue: linear-gradient(180deg, var(--blue-400) 31.77%, var(--blue-500) 100%);
 
-
+  /* Blue-green */
   --hor-bg: linear-gradient(90deg, var(--blue-500) 31.77%, var(--green-400) 100%);
 
   --vert-bg: linear-gradient(180deg, var(--blue-500) 31.77%, var(--green-400) 100%);
 
-
+  /* Blue-purple */
   --hor-bp: linear-gradient(90deg, var(--blue-500) 31.77%, var(--purple-300) 100%);
 
   --vert-bp: linear-gradient(180deg, var(--blue-500) 31.77%, var(--purple-300) 100%);
 
-
+  /* Purple */
   --hor-purple: linear-gradient(90deg, var(--purple-400) 31.77%, var(--purple-500) 100%);
 
   --vert-purple: linear-gradient(180deg, var(--purple-400) 31.77%, var(--purple-500) 100%);
 
-
+  /* Purple-red */
   --hor-pr: linear-gradient(90deg, var(--purple-500) 31.77%, var(--red-400) 100%);
 
   --vert-pr: linear-gradient(180deg, var(--purple-500) 31.77%, var(--red-400) 100%);
 
-
+  /* Purple-blue */
   --hor-pb: linear-gradient(90deg, var(--purple-500) 31.77%, var(--blue-300) 100%);
 
   --vert-pb: linear-gradient(180deg, var(--purple-500) 31.77%, var(--blue-300) 100%);
 
-
+  /* Purple-pink */
   --hor-ppk: linear-gradient(90deg, var(--purple-500) 31.77%, var(--pink-300) 100%);
 
   --vert-ppk: linear-gradient(180deg, var(--purple-500) 31.77%, var(--pink-300) 100%);
 
-
+  /* Pink */
   --hor-pink: linear-gradient(90deg, var(--pink-400) 31.77%, var(--pink-500) 100%);
 
   --vert-pink: linear-gradient(180deg, var(--pink-400) 31.77%, var(--pink-500) 100%);
 
-
+  /* Pink-red */
   --hor-pkr: linear-gradient(90deg, var(--pink-500) 31.77%, var(--red-300) 100%);
 
   --vert-pkr: linear-gradient(180deg, var(--pink-500) 31.77%, var(--red-300) 100%);
 
-
+  /* Pink-purple */
   --hor-pkp: linear-gradient(90deg, var(--pink-500) 31.77%, var(--purple-300) 100%);
   --vert-pkp: linear-gradient(180deg, var(--pink-500) 31.77%, var(--purple-400) 100%);
 
