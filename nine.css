@@ -1,0 +1,161 @@
+
+/* Nine | The CSS Framework (https://github.com/nuzzesick/nine-css)
+Made with love by Matías Nuccetelli (https://nuzze.now.sh) in Argentina. */
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+
+  /* Font family */
+  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+  /* Colors */
+  --transparent: transparent;
+  --white: #FFFFFF;
+  --gray-100: #F0F0F0;
+  --gray-200: #DADADA;
+  --gray-300: #C2C2C2;
+  --gray-400: #A8A8A8;
+  --gray-500: #858585;
+  --gray: var(--gray-500);
+  --gray-600: #6A6A6A;
+  --gray-700: #4D4D4D;
+  --gray-800: #363636;
+  --gray-900: #202020;
+  --black: #0E0E0E;
+  --red-100: #FFCACA;
+  --red-200: #FF9090;
+  --red-300: #FD7575;
+  --red-400: #F95A5A;
+  --red-500: #EC4141;
+  --red: var(--red-500);
+  --red-600: #D02525;
+  --red-700: #AE1C1C;
+  --red-800: #851111;
+  --red-900: #4F0707;
+  --orange-100: #FFDDCA;
+  --orange-200: #FFC09D;
+  --orange-300: #FFAC7D;
+  --orange-400: #F49058;
+  --orange-500: #E5793C;
+  --orange: var(--orange-500);
+  --orange-600: #CA6125;
+  --orange-700: #B14E17;
+  --orange-800: #8A380B;
+  --orange-900: #672804;
+  --yellow-100: #FFFACA;
+  --yellow-200: #FFF6A4;
+  --yellow-300: #FFF27B;
+  --yellow-400: #F4E557;
+  --yellow-500: #E4D434;
+  --yellow: var(--yellow);
+  --yellow-600: #C8B921;
+  --yellow-700: #B0A319;
+  --yellow-800: #938710;
+  --yellow-900: #665E08;
+  --gren-100: #D1FFCA;
+  --gren-200: #A6FF98;
+  --gren-300: #89FF77;
+  --gren-400: #63F24E;
+  --gren-500: #4CDD36;
+  --gren: var(--green-500);
+  --gren-600: #36C220;
+  --gren-700: #2AA616;
+  --gren-800: #1D880C;
+  --gren-900: #126504;
+  --blue-100: #CAE2FF;
+  --blue-200: #A5CEFF;
+  --blue-300: #7CB7FF;
+  --blue-400: #56A0FB;
+  --blue-500: #4593F1;
+  --blue: var(--blue-500);
+  --blue-600: #2D7CDC;
+  --blue-700: #1F66BC;
+  --blue-800: #104E98;
+  --blue-900: #0A3972;
+  --purple-100: #DBCAFF;
+  --purple-200: #BE9FFF;
+  --purple-300: #A57BFF;
+  --purple-400: #915EFF;
+  --purple-500: #7D47F0;
+  --purple: var(--purple-500);
+  --purple-600: #6C36DD;
+  --purple-700: #5624BF;
+  --purple-800: #4011A3;
+  --purple-900: #300A80;
+  --pink-100: #F8CAFF;
+  --pink-200: #F3A9FF;
+  --pink-300: #EE88FF;
+  --pink-400: #E461FA;
+  --pink-500: #D346EB;
+  --pink: var(--pink-500);
+  --pink-600: #C130D9;
+  --pink-700: #A61FBD;
+  --pink-800: #820F95;
+  --pink-900: #5D066B;
+
+  /* Box shadows */
+
+
+}
+h1, h2, h3, h4, h5, h6, a, p, span, button, input, label, text, div {
+  font-family: var(--font-family);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  text-decoration: none;
+}
+h1, h2 {
+  font-weight: 700;
+}
+h3, h4 {
+  font-weight: 600;
+}
+h5, h6, a, p, span, button, input, label {
+  font-weight: 500;
+}
+* {
+  box-sizing: content-box;
+}
+button {
+  background: none;
+  outline: 0;
+  border: 0;
+}
+input, label {
+  background: none;
+  outline: none;
+  border: 0;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  box-shadow: 0 0 0 30px white inset !important;
+}
+
+/* Selection */
+::-moz-selection {
+  background: var(--secondary);
+}
+::selection {
+  background: var(--secondary);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: var(--white);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+  border-radius: 3px; 
+}
