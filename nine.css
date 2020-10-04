@@ -95,10 +95,93 @@ html, body {
   --pink-800: #820F95;
   --pink-900: #5D066B;
 
-  /* Box shadows */
+  /* Gradients */
 
+  --hor-red: linear-gradient(90deg, var(-red-400) 31.77%, var(--red-500) 100%);
+
+  --vert-red: linear-gradient(180deg, var(--red-400) 31.77%, var(--red-500) 100%);
+
+
+  --hor-ro: linear-gradient(90deg, var(--red-400) 31.77%, var(--orange-400) 100%);
+
+  --vert-ro: linear-gradient(180deg, var(--red-400) 31.77%, var(--orange-400) 100%);
+
+
+  --hor-rp: linear-gradient(90deg, var(--red-400) 31.77%, var(--purple-300) 100%);
+
+  --vert-rp: linear-gradient(180deg, var(--red-400) 31.77%, var(--purple-300) 100%);
+
+
+  --hor-orange: linear-gradient(90deg, var(--orange-400) 31.77%, var(--orange-500) 100%);
+
+  --vert-orange: linear-gradient(180deg, var(--orange-400) 31.77%, var(--orange-500) 100%);
+
+
+  --hor-or: linear-gradient(90deg, var(--orange-400) 31.77%, var(--red-400) 100%);
+
+  --vert-or: linear-gradient(180deg, var(--orange-400) 31.77%, var(--red-400) 100%);
+
+
+  --hor-green: linear-gradient(90deg, var(--green-400) 31.77%, var(--green-500) 100%);
+
+  --vert-green: linear-gradient(180deg, var(--green-400) 31.77%, var(--green-500) 100%);
+
+
+  --hor-gb: linear-gradient(90deg, var(--green-500) 31.77%, var(--blue-400) 100%);
+
+  --vert-gb: linear-gradient(180deg, var(--green-500) 31.77%, var(--blue-400) 100%);
+
+
+  --hor-blue: linear-gradient(90deg, var(--blue-400) 31.77%, var(--blue-500) 100%);
+
+  --vert-blue: linear-gradient(180deg, var(--blue-400) 31.77%, var(--blue-500) 100%);
+
+
+  --hor-bg: linear-gradient(90deg, var(--blue-500) 31.77%, var(--green-400) 100%);
+
+  --vert-bg: linear-gradient(180deg, var(--blue-500) 31.77%, var(--green-400) 100%);
+
+
+  --hor-bp: linear-gradient(90deg, var(--blue-500) 31.77%, var(--purple-300) 100%);
+
+  --vert-bp: linear-gradient(180deg, var(--blue-500) 31.77%, var(--purple-300) 100%);
+
+
+  --hor-purple: linear-gradient(90deg, var(--purple-400) 31.77%, var(--purple-500) 100%);
+
+  --vert-purple: linear-gradient(180deg, var(--purple-400) 31.77%, var(--purple-500) 100%);
+
+
+  --hor-pr: linear-gradient(90deg, var(--purple-500) 31.77%, var(--red-400) 100%);
+
+  --vert-pr: linear-gradient(180deg, var(--purple-500) 31.77%, var(--red-400) 100%);
+
+
+  --hor-pb: linear-gradient(90deg, var(--purple-500) 31.77%, var(--blue-300) 100%);
+
+  --vert-pb: linear-gradient(180deg, var(--purple-500) 31.77%, var(--blue-300) 100%);
+
+
+  --hor-ppk: linear-gradient(90deg, var(--purple-500) 31.77%, var(--pink-300) 100%);
+
+  --vert-ppk: linear-gradient(180deg, var(--purple-500) 31.77%, var(--pink-300) 100%);
+
+
+  --hor-pink: linear-gradient(90deg, var(--pink-400) 31.77%, var(--pink-500) 100%);
+
+  --vert-pink: linear-gradient(180deg, var(--pink-400) 31.77%, var(--pink-500) 100%);
+
+
+  --hor-pkr: linear-gradient(90deg, var(--pink-500) 31.77%, var(--red-300) 100%);
+
+  --vert-pkr: linear-gradient(180deg, var(--pink-500) 31.77%, var(--red-300) 100%);
+
+
+  --hor-pkp: linear-gradient(90deg, var(--pink-500) 31.77%, var(--purple-300) 100%);
+  --vert-pkp: linear-gradient(180deg, var(--pink-500) 31.77%, var(--purple-400) 100%);
 
 }
+
 h1, h2, h3, h4, h5, h6, a, p, span, button, input, label, text, div {
   font-family: var(--font-family);
   -webkit-touch-callout: none;
@@ -110,52 +193,68 @@ h1, h2, h3, h4, h5, h6, a, p, span, button, input, label, text, div {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   text-decoration: none;
 }
+
 h1, h2 {
   font-weight: 700;
 }
+
 h3, h4 {
   font-weight: 600;
 }
+
 h5, h6, a, p, span, button, input, label {
   font-weight: 500;
 }
+
 * {
   box-sizing: content-box;
 }
+
 button {
   background: none;
   outline: 0;
   border: 0;
 }
+
 input, label {
   background: none;
   outline: none;
   border: 0;
 }
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-  -webkit-box-shadow: 0 0 0 30px white inset !important;
-  box-shadow: 0 0 0 30px white inset !important;
+  -webkit-box-shadow: 0 0 0 30px white inset;
+  -moz-box-shadow: 0 0 0 30px white inset;
+  box-shadow: 0 0 0 30px white inset;
 }
 
-/* Selection */
-::-moz-selection {
-  background: var(--secondary);
-}
-::selection {
-  background: var(--secondary);
+/* Colors */
+
+/* Components */
+
+
+
+/* BREAKPOINTS */
+
+/* Small (sm) */
+@media (min-width: 640px) {
+
 }
 
-/* Scrollbar */
-::-webkit-scrollbar {
-  width: 7px;
+/* Medium (md) */
+@media (min-width: 768px) {
+
 }
-::-webkit-scrollbar-track {
-  background: var(--white);
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+
 }
-::-webkit-scrollbar-thumb {
-  background: var(--secondary);
-  border-radius: 3px; 
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+
 }
